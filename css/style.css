@@ -1,0 +1,200 @@
+.body {
+  padding: 10px 50px;
+}
+/* Header */
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ul-nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-li {
+  margin-right: 15px;
+}
+
+.logo {
+  height: 60px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  color: black;
+}
+/* section1 */
+
+.section1 {
+  display: flex;
+  position: relative;
+}
+
+.image-slider {
+  width: 100%;
+  margin: 0 auto;
+}
+.slider-white-box {
+  position: absolute;
+  padding: 20px;
+  background-color: white;
+  width: 350px;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0.9;
+  border-top-left-radius: 10px;
+}
+.white-box-footer {
+  display: flex;
+  align-items: center;
+}
+.slider-white-box > h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.slider-white-box > p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 19px;
+}
+
+.white-box-footer > img {
+  margin-right: 10px;
+}
+.white-box-footer > p {
+  font-weight: bold;
+}
+
+/* section2 */
+
+.section2-div {
+  display: flex;
+  align-items: center;
+}
+.box1:nth-child(2) {
+  margin: 0 80px;
+}
+
+.sectio-2text {
+  color: gray;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(189, 189, 189, 1);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(189, 189, 189, 1);
+  box-shadow: 0px 0px 4px 0px rgba(189, 189, 189, 1);
+}
+.box1-img {
+  width: 100%;
+}
+.box1-1-p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.box1-2-p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+.box1 > .content > .box1-3-p {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.content {
+  padding: 15px;
+}
+.load-more {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.anime {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: anime;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: infinite;
+ 
+}
+@keyframes anime {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 600px;
+  }
+  50% {
+    left: 600px;
+  }
+  75% {
+    left: 0px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+/* footer */
+
+.footer {
+  background-color: #2e2e2e;
+  width: 100%;
+  height: 200px;
+  /* margin-top: 60px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-logo {
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-footer {
+  color: #fff;
+}
+.nav-li-footer:nth-child(1) {
+  font-weight: bold;
+}
+.nav-li-footer {
+  line-height: 24px;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.social {
+  height: 30px;
+}
